@@ -1,0 +1,35 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  color: #888;
+}
+
+.button {
+  padding: 0 5px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}

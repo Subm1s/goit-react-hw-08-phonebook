@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+.panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.logout {
+  cursor: pointer;
+  transition: transform 250ms var(--anim-func);
+}
+
+.disabled {
+  color: #888888;
+}
+
+.logout:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
